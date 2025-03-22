@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="космос, вселенная, звезды, планеты, исследования">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №1</title>
+    <!-- Подключаем внешний CSS-файл -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Блок с информацией о лабораторной работе -->
+    <section class="lab-info">
+        <h1>Лабораторная работа №1</h1>
+        <p>Предмет: Разработка клиент-серверных приложений</p>
+        <p>Студент: Пирумян Тимур Романович</p>
+        <p>Группа БИВТ-23-3</p>
+        <p>Цель работы: Создать свою версию HTML-документа</p>
+    </section>
+
+    <!-- Верхняя часть страницы -->
+    <header>
+        <h1>Исследование Космоса</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О проекте</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+        <section id="introduction">
+            <h2>Величие Вселенной</h2>
+            <p>
+                Космос — это безграничное пространство, полное загадок и удивительных явлений...
+            </p>
+            <!-- Остальной текст -->
+        </section>
+
+        <section id="space-journey">
+            <h2>Путешествие во времени и пространстве</h2>
+            <p>
+                Свет от далеких звезд путешествует миллионы лет...
+            </p>
+            <!-- Остальной текст -->
+        </section>
+
+        <aside>
+            <h3>Интересные факты о космосе</h3>
+            <ul>
+                <li>В Млечном Пути содержится более 100 миллиардов звезд.</li>
+                <li>Расстояния в космосе измеряются в световых годах.</li>
+                <li>Открытие экзопланет расширяет наше представление о потенциальной жизни.</li>
+            </ul>
+        </aside>
+
+        <section id="registration">
+            <h2>Регистрация пользователя</h2>
+            <form action="submit_form.php" method="post">
+                <label for="username">Имя пользователя:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+        </section>
+
+        <section id="gallery">
+            <h2>Галерея космоса</h2>
+            <div class="image-container">
+                <div class="large-image">
+                    <img src="images/space_large.jpg" alt="Космический пейзаж" width="800">
+                </div>
+                <img class="small-image" src="images/space2.jpg" alt="Планета" width="200">
+                <img class="small-image" src="images/space3.jpg" alt="Галактика" width="200">
+            </div>
+        </section>
+    </main>
+
+    <!-- Нижняя часть страницы -->
+    <footer>
+        <p>Контактный телефон: +7 123 456-78-90</p>
+        <p>Email: info@cosmos.ru</p>
+    </footer>
+
+    <!-- Подключение JavaScript -->
+    <script src="jsavscript.js"></script>
+</body>
+</html>
